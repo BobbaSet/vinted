@@ -14,9 +14,10 @@ nav{
     .items{
         display: flex;
         list-style: none;
+        justify-content: center;
         height: 100%;
         line-height: 50px;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .items-liste{
@@ -30,7 +31,7 @@ nav{
     .items-sous{
         position: relative;
         top: -2px;
-        display: block;
+        display: none;
     }
 
     .items-sous-liste{
@@ -38,18 +39,19 @@ nav{
         text-align: center;
         font-size: 17px;
         padding: 0 10px;
-        background: rgb(93, 169, 255);;
+        background: rgb(167,167,167);
         color: white;
+        border-bottom: 0.5px solid rgb(110,110,110);
     }
 
-    .items-sous-liste{
+    .items-sous-liste:hover{
         background: #f1f1f1;
         color: black;
     }
 
-    /*.items-liste:hover > ul{
+    .items-liste:hover > ul{
         display: block;
-    }*/
+    }
   
     
     .logo{

@@ -10,16 +10,14 @@ nav {
   align-items: center;
   justify-content: center;
   /* -------------------------- Sous Liste ----------------------------*/
-  /*.items-liste:hover > ul{
-      display: block;
-  }*/
 }
 nav .items {
   display: flex;
   list-style: none;
+  justify-content: center;
   height: 100%;
   line-height: 50px;
-  font-size: 20px;
+  font-size: 22px;
 }
 nav .items-liste {
   cursor: pointer;
@@ -29,19 +27,23 @@ nav .items-liste {
 nav .items-sous {
   position: relative;
   top: -2px;
-  display: block;
+  display: none;
 }
 nav .items-sous-liste {
   list-style-type: none;
   text-align: center;
   font-size: 17px;
   padding: 0 10px;
-  background: #5da9ff;
+  background: #a7a7a7;
   color: white;
+  border-bottom: 0.5px solid #6e6e6e;
 }
-nav .items-sous-liste {
+nav .items-sous-liste:hover {
   background: #f1f1f1;
   color: black;
+}
+nav .items-liste:hover > ul {
+  display: block;
 }
 nav .logo {
   width: 80px;
