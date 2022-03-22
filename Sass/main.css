@@ -1,0 +1,71 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* -------------------------- Sous Liste ----------------------------*/
+  /*.items-liste:hover > ul{
+      display: block;
+  }*/
+}
+nav .items {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  line-height: 50px;
+  font-size: 20px;
+}
+nav .items-liste {
+  cursor: pointer;
+  color: grey;
+  flex-shrink: 0;
+}
+nav .items-sous {
+  position: relative;
+  top: -2px;
+  display: block;
+}
+nav .items-sous-liste {
+  list-style-type: none;
+  text-align: center;
+  font-size: 17px;
+  padding: 0 10px;
+  background: #5da9ff;
+  color: white;
+}
+nav .items-sous-liste {
+  background: #f1f1f1;
+  color: black;
+}
+nav .logo {
+  width: 80px;
+  height: 40px;
+}
+nav .help {
+  width: 20px;
+  height: 20px;
+}
+nav #connection {
+  background-color: white;
+  border: 1px solid #3e8d89;
+  color: #3e8d89;
+  border-radius: 3px;
+  padding: 3px;
+}
+nav #vendre {
+  background-color: #3e8d89;
+  border: 1px solid #3e8d89;
+  color: white;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+body {
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */

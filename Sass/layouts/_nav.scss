@@ -1,0 +1,80 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .items{
+        display: flex;
+        list-style: none;
+        height: 100%;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .items-liste{
+        cursor: pointer;
+        color: grey;
+        flex-shrink: 0;
+    }  
+
+    /* -------------------------- Sous Liste ----------------------------*/
+
+    .items-sous{
+        position: relative;
+        top: -2px;
+        display: block;
+    }
+
+    .items-sous-liste{
+        list-style-type: none;
+        text-align: center;
+        font-size: 17px;
+        padding: 0 10px;
+        background: rgb(93, 169, 255);;
+        color: white;
+    }
+
+    .items-sous-liste{
+        background: #f1f1f1;
+        color: black;
+    }
+
+    /*.items-liste:hover > ul{
+        display: block;
+    }*/
+  
+    
+    .logo{
+        width: 80px;
+        height: 40px;
+    }
+
+    .help{
+        width: 20px;
+        height: 20px;
+    }
+
+    #connection{
+        background-color: white;
+        border: 1px solid rgb(62, 141, 137);
+        color:rgb(62, 141, 137);
+        border-radius: 3px;
+        padding: 3px;
+    }
+
+    #vendre{
+        background-color: rgb(62, 141, 137);
+        border: 1px solid rgb(62, 141, 137);
+        color:white;
+        border-radius: 3px;
+        padding: 3px;
+    }
+}
