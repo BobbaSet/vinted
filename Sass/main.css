@@ -1,14 +1,9 @@
-*, ::before, ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 nav {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: first baseline;
+  margin: 0 auto;
   /* -------------------------- Sous Liste ----------------------------*/
 }
 nav .items {
@@ -16,7 +11,7 @@ nav .items {
   list-style: none;
   justify-content: center;
   height: 100%;
-  line-height: 50px;
+  line-height: 30px;
   font-size: 22px;
 }
 nav .items-liste {
@@ -34,9 +29,9 @@ nav .items-sous-liste {
   text-align: center;
   font-size: 17px;
   padding: 0 10px;
-  background: #a7a7a7;
+  background: rgb(167, 167, 167);
   color: white;
-  border-bottom: 0.5px solid #6e6e6e;
+  border-bottom: 0.5px solid rgb(110, 110, 110);
 }
 nav .items-sous-liste:hover {
   background: #f1f1f1;
@@ -55,19 +50,25 @@ nav .help {
 }
 nav #connection {
   background-color: white;
-  border: 1px solid #3e8d89;
-  color: #3e8d89;
+  border: 1px solid rgb(62, 141, 137);
+  color: rgb(62, 141, 137);
   border-radius: 3px;
   padding: 3px;
 }
 nav #vendre {
-  background-color: #3e8d89;
-  border: 1px solid #3e8d89;
+  background-color: rgb(62, 141, 137);
+  border: 1px solid rgb(62, 141, 137);
   color: white;
   border-radius: 3px;
   padding: 3px;
 }
 
 body {
+  width: 1200px;
   margin: 0 auto;
+}
+
+header img {
+  width: 1200px;
+  height: 550px;
 }/*# sourceMappingURL=main.css.map */
