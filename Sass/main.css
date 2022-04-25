@@ -90,18 +90,26 @@ header img {
 }
 header .texte {
   background-color: white;
-  padding: 5px;
+  width: 200px;
+  height: 210px;
+  padding: 10px;
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 15%;
 }
 header .texte p {
-  font-size: 20px;
+  font-size: 30px;
+}
+header .texte a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
 header #vends {
   background-color: rgb(62, 141, 137);
   border: 1px solid rgb(62, 141, 137);
   color: white;
   border-radius: 3px;
-  padding: 3px;
+  padding: 2px;
+  margin-bottom: 4px;
 }/*# sourceMappingURL=main.css.map */
