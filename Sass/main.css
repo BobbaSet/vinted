@@ -64,9 +64,16 @@ nav #vendre {
   padding: 3px;
   cursor: pointer;
 }
+nav .imgSearch {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
 nav #search {
   width: 500px;
   height: 30px;
+  border-radius: 5px;
+  border: solid 2px black;
 }
 
 body {

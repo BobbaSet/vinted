@@ -77,8 +77,16 @@ nav{
         cursor: pointer;
     }
 
+    .imgSearch{
+        width: 30px;
+        height: 30px;
+        margin: 0;
+    }
+
     #search{
         width: 500px;
         height: 30px;
+        border-radius: 5px;
+        border: solid 2px black;
     }
 }
