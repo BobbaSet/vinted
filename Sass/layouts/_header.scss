@@ -1,6 +1,27 @@
 header{
+    position: relative;
     img{
-        width: 1200px;
+        width: 100%;
         height: 550px;
+    }
+
+    .texte{
+        background-color: white;
+        padding: 5px;
+        position: absolute;
+        bottom: 15%;
+        left: 15%;
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+    #vends{
+        background-color: rgb(62, 141, 137);
+        border: 1px solid rgb(62, 141, 137);
+        color:white;
+        border-radius: 3px;
+        padding: 3px;
     }
 }

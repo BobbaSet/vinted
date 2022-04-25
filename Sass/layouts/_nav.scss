@@ -1,11 +1,8 @@
-
-
-
 nav{
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: first baseline;
+    justify-content:space-around;
     margin: 0 auto;
     
     .items{
@@ -62,18 +59,25 @@ nav{
     }
 
     #connection{
-        background-color: white;
-        border: 1px solid rgb(62, 141, 137);
-        color:rgb(62, 141, 137);
+        background-color: rgb(0, 0, 0);
+        border: 1px solid rgb(255, 255, 255);
+        color:rgb(255, 255, 255);
         border-radius: 3px;
         padding: 3px;
+        cursor: pointer;
     }
 
     #vendre{
-        background-color: rgb(62, 141, 137);
-        border: 1px solid rgb(62, 141, 137);
-        color:white;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        color:rgb(0, 0, 0);
         border-radius: 3px;
         padding: 3px;
+        cursor: pointer;
+    }
+
+    #search{
+        width: 500px;
+        height: 30px;
     }
 }
