@@ -49,6 +49,9 @@ nav .help {
   width: 20px;
   height: 20px;
 }
+nav .recherche {
+  border: 1px solid black;
+}
 nav #connection {
   background-color: rgb(0, 0, 0);
   border: 1px solid rgb(255, 255, 255);
