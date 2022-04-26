@@ -105,6 +105,10 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  margin-top: 50px;
+}
+
 header {
   position: relative;
 }
@@ -167,4 +171,20 @@ header #vends {
   margin-left: 5px;
   color: grey;
   font-size: 12px;
+}
+
+.flexbox {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexbox .marque {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.flexbox .marque .marque-items {
+  padding: 5px;
+  border: solid 1px grey;
 }/*# sourceMappingURL=main.css.map */

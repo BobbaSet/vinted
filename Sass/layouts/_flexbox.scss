@@ -1,0 +1,19 @@
+.flexbox{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+
+    .marque{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+
+        .marque-items{
+        padding: 5px;
+        border: solid 1px grey;
+    }
+    }
+
+}
+    
