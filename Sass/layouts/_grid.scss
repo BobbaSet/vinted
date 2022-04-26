@@ -1,0 +1,35 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 1200px;
+    gap: 5px;
+
+    .grid-items{
+        width: 200px;
+        img{
+            width: 200px;
+            height: 250px;
+        }
+
+        p{
+            margin: 0;
+            padding: 0;
+        }
+
+        .price{
+            margin-left: 5px;
+        }
+        
+        .taille{
+            margin-left: 5px;
+            color: grey;
+            font-size: 12px;
+        }
+
+        .name{
+            margin-left: 5px;
+            color: grey;
+            font-size: 12px;
+        }
+    }
+}

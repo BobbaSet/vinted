@@ -136,4 +136,35 @@ header #vends {
   border-radius: 3px;
   padding: 2px;
   margin-bottom: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 1200px;
+  gap: 5px;
+}
+.grid .grid-items {
+  width: 200px;
+}
+.grid .grid-items img {
+  width: 200px;
+  height: 250px;
+}
+.grid .grid-items p {
+  margin: 0;
+  padding: 0;
+}
+.grid .grid-items .price {
+  margin-left: 5px;
+}
+.grid .grid-items .taille {
+  margin-left: 5px;
+  color: grey;
+  font-size: 12px;
+}
+.grid .grid-items .name {
+  margin-left: 5px;
+  color: grey;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
