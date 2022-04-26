@@ -16,4 +16,27 @@
     }
 
 }
-    
+
+/* ------------------------ Flexbox recherche --------------------------------*/
+
+.flexbox_recherche{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+
+    .flexbox_recherche-liste{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .flexbox_recherche-items{
+        padding: 3px;
+        border: solid 1px grey;
+
+        p{
+            color: grey;
+            font-size: 12px;
+        }
+    }
+}

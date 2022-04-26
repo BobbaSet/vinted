@@ -187,4 +187,24 @@ header #vends {
 .flexbox .marque .marque-items {
   padding: 5px;
   border: solid 1px grey;
+}
+
+/* ------------------------ Flexbox recherche --------------------------------*/
+.flexbox_recherche {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+}
+.flexbox_recherche .flexbox_recherche-liste {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.flexbox_recherche .flexbox_recherche-items {
+  padding: 3px;
+  border: solid 1px grey;
+}
+.flexbox_recherche .flexbox_recherche-items p {
+  color: grey;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
