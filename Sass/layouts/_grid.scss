@@ -33,3 +33,39 @@
         }
     }
 }
+
+.grille{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 1200px;
+    gap: 5px;
+
+    .grille-items{
+        width: 200px;
+        border: solid 1px grey;
+        border-radius: 3px;
+        img{
+            width: 200px;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+
+        .price{
+            margin-left: 5px;
+        }
+        
+        .taille{
+            margin-left: 5px;
+            color: grey;
+            font-size: 12px;
+        }
+
+        .name{
+            margin-left: 5px;
+            color: grey;
+            font-size: 12px;
+        }
+    }
+}
