@@ -175,34 +175,41 @@ header #vends {
 
 .flexbox {
   display: flex;
-  width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
 }
 .flexbox .marque {
   display: flex;
   list-style: none;
+  gap: 10px;
   justify-content: space-between;
 }
 .flexbox .marque .marque-items {
   padding: 5px;
   border: solid 1px grey;
+  border-radius: 3px;
 }
 
 /* ------------------------ Flexbox recherche --------------------------------*/
 .flexbox_recherche {
   display: flex;
-  width: 1200px;
+  margin: 0 auto;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 .flexbox_recherche .flexbox_recherche-liste {
   display: flex;
   list-style: none;
+  gap: 10px;
   justify-content: space-between;
 }
 .flexbox_recherche .flexbox_recherche-items {
-  padding: 3px;
-  border: solid 1px grey;
+  padding: 2px;
+  border: solid 1px rgb(122, 122, 122);
+  border-radius: 3px;
 }
 .flexbox_recherche .flexbox_recherche-items p {
   color: grey;
